@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   position: relative;
+   top: 70px;
+   height: 600px;
+   width: 50%;
+   border-bottom: solid 2px green;
+   border-left: solid 2px green;
+   border-right: solid 2px green;
+   border-top: solid 2px green;
+   border-radius: 20px;
+}
+
+img {
+   position: relative;
+   top: 15px;
+   left: 3%;
+}
+
+h2 {
+   position: relative;
+   top: 50px;
+}
+
+
+/* === input section ===*/
+input {
+   position: relative;
+   top: 110px;
+   height: 50px;
+   width: 50%;
+   left: -5%;
+   display: flex;
+   border-bottom: solid 2px rgb(199, 199, 199);
+   border-left: solid 2px rgb(199, 199, 199);
+   border-right: solid 2px rgb(199, 199, 199);
+   border-top: solid 2px rgb(199, 199, 199);
+}
+
+input::placeholder {
+   position: relative;
+   left: 4%;
+}
+
+.row {
+   position: relative;
+   left: 8%;
+   top: -30px;
+}
+
+.input1 {
+   position: relative;
+   top: 150px;
+   left: -5%;
+   width: 50%;
+   display: flex;
+}
+
+.input2 {
+   position: relative;
+   top: 190px;
+   left: -5%;
+   width: 50%;
+   display: flex;
+}
+/* === end input section ===*/
+
+
+.checkbox {
+   position: relative;
+   left: -19%;
+   top: 190px;
+   height: 20px;
+   display: flex;
+}
+
+label {
+   position: relative;
+   top: 170px;
+   left: 9%;
+   display: flex;
+}
+
+.login-btn {
+   position: relative;
+   left: 15%;
+   top: 200px;
+   background-color: green;
+   border: none;
+   height: 3em;
+   width: 50%;
+   left: 3%;
+   color: white;
+   justify-content: center;
+   transition: 0.5s;
+   border-radius: 10px;
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+
+button:hover {
+   transform: scale(0.95);
+}
